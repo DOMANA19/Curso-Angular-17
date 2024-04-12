@@ -1,0 +1,7 @@
+<ul>
+    @for (post of posts(); track post.id ){
+        <li>{{post.id}}</li>
+        <li>{{post.title}}</li>
+        <li>{{post.views}}</li>
+    }
+</ul>
